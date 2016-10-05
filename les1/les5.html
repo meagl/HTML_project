@@ -1,0 +1,290 @@
+﻿<html>
+<title>South Korea</title>
+<style>
+  body {
+  background: rgb(9, 20, 50) url("seol.jpg") no-repeat center top;
+  }
+  h1 {
+  color: white;
+  text-align: center;
+  }
+#v{text-align: left;
+color: white;}
+#suga{color: white;}
+p{ color: white;
+   text-align: center ;
+text-indent: 50px;
+}
+
+button {
+    background-color:  white;
+    border: none;
+    color: rgb(8, 19, 49);
+    padding: 16px 32px;
+ 
+    margin: 4px 2px;
+	border-radius: 12px;}
+    
+}
+
+
+table {
+     border-collapse: collapse;
+}
+
+
+  td.menu { background: #7FFFD4;
+  }
+  td.menu:hover{ background: #00BFFF;
+  }
+#jin{ color: white;
+}
+
+
+
+
+#box div{
+				position: absolute;
+				height: 160px;
+				width: 160px;
+				border: 1px solid rgb(9,20,50);
+				background: rgba(152,245,255,0.8);
+				text-align: center;
+				font-size: 50px;
+			}
+
+			#box{
+				-webkit-animation-name: animation;
+				-webkit-animation-timing-function: ease-in-out;
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-duration: 3s; margin:8;
+				-webkit-transform-style: preserve-3d;
+				-webkit-transform-origin: 80px 80px 0;
+			}
+
+			#box .one{ 
+				-webkit-transform: translateZ(80px);
+			}
+			#box .two{ 
+				-webkit-transform: rotateX(-90deg) translateZ(80px);
+			}
+			#box .three {
+				-webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+			}
+			#box .four {
+				-webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+			}
+			#box .five{ 
+				-webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px);
+			}
+			#box .six {
+				-webkit-transform: rotateY(90deg) translateZ(80px);
+			}
+
+			@-webkit-keyframes animation{
+				from,to{}
+				16% { -webkit-transform: rotateY(-90deg);}
+				33% { -webkit-transform: rotateY(-90deg) rotateZ(135deg);}
+				50% { -webkit-transform: rotateY(225deg) rotateZ(135deg);}
+				66% { -webkit-transform: rotateY(135deg) rotateX(135deg);}
+				83% { -webkit-transform: rotateX(135deg);}
+			}
+</style>
+
+<script type="text/javascript">
+function show_pic(){
+//alert('hi');
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+var c3_elem = document.getElementById("c3");
+c1_elem.style.display='none';
+c2_elem.style.display = 'block';
+c3_elem.style.display = 'none';
+}
+
+function show_text(){
+var c1_elem = document.getElementById("c1");
+var c2_elem = document.getElementById("c2");
+var c3_elem = document.getElementById("c3");
+c1_elem.style.display='block';
+c2_elem.style.display = 'none';
+c3_elem.style.display = 'none';
+}
+
+function show_game() {
+    var c1_elem = document.getElementById("c1");
+    var c2_elem = document.getElementById("c2");
+    var c3_elem = document.getElementById("c3");
+    c1_elem.style.display = 'none';
+    c2_elem.style.display = 'none';
+    c3_elem.style.display = 'block';
+}
+
+function check() {
+    q1elem = document.getElementById('q1');
+    if (q1elem.checked) { alert("Yes") }
+    else { alert("No") }
+
+    q3e = document.getElementById('q3');
+    answer = q3e.value;
+    { alert("Вы уверены, что " + answer + "?") }
+
+    rese = document.getElementById('res');
+    rese.innerHTML = 'Вы уверены...?';
+
+}
+
+
+</script>
+
+<body>
+<h1>South Korea forever!</h1>
+<table border='none' width="100%">
+<tr>
+<td  class="menu" width="33%" onclick="show_text()"><center>Info</center></td>
+<td class="menu" onclick="show_pic()"><center>Map</center></td>
+<td class="menu" onclick="show_game()"><center>Game</center></td>
+</tr>
+<tr>
+<td colspan = "3">
+
+<div id="c1">
+<pre><div id="jin"><h2> <center>Общие сведенья</center></h2></div></pre>
+<p>Республика Корея — государство в Восточной Азии, расположенное на Корейском полуострове.<br>
+  Граничит с КНДР. Омывается Японским морем и Желтым морем.<br>
+Площадь — 99,5 тысяч кв км. Население — свыше 47,9 млн. человек (2003), главным<br> 
+образом — корейцы; верующие — буддисты, конфуцианцы, христиане–англиканцы.<br>
+
+Национальный флаг Южной Кореи называется тхэгыки и символизирует принципы инь<br> 
+и янь в восточной философии. Круг в середине флага разделен на две равные части.<br> 
+Верхняя, красная часть символизирует силы янь, а нижняя, синяя часть — силы инь.<br> 
+Две силы вместе воплощают идею беспрерывного движения, баланса и гармонии, которые<br> 
+характеризуют бесконечность. Круг окружают четыре триграммы, по одной в каждом углу.<br> 
+Каждая из них символизирует одну из четырех стихий: небо, землю, огонь, воду. Национальный<br>
+цветок Кореи — гибискус. Его местное название — мугунхва, или роза Шарона. <br> 
+Каждый год с июля по октябрь изобилие цветов мугунхва украшает страну. Мугунхва <br>
+удивительно жизнестойка, символическое значение цветка проистекает из корня его названия<br> 
+— мугун, что означает бессмертие.</p>
+
+
+		<div id="view" style="width:160px; height:160px; margin:80px auto 0 auto;">
+			<div id="box">
+				<div class="one">또 뵙겠습니</div>
+				<div class="two">안녕히 가세요</div>
+				<div class="three">러시아 사람 </div>
+				<div class="four">어떻게 지내세 </div>
+				<div class="five">감사합니다</div>
+				<div class="six">건강합니다</div>
+			</div>
+		</div>
+
+
+
+<pre>
+
+<div id="jin"><h2> <center>История Южной Кореи</center></h2></div></pre>
+<p>Первые поселения на территории Кореи возникли более полумиллиона лет назад.<br>
+Самая ранняя глиняная посуда в Корее датируется приблизительно между 10000 лет до н.э.<br> 
+и периодом неолита (6000 лет до н.э.). Легенда об основании королевства Кочосон <br>
+описывает, как Дангун, потомок небес, основал здесь своё царство приблизительно в 2333 году до н.э..<br></p>
+
+<p>Позднее, в первом столетии н.э, три древних Королевства, существующих на <br>
+территории Кореи, - Когурё, Пекче и Силла объединились и занимали весь <br>
+Корейский полуостров и большую часть Манчьжурии. Период их правления <br>
+(57 г. до н.э. - 668 г. н.э.) известен в истории как эпоха правления Трех Королей.<br></p>
+
+<p>Следующая династия правителей - Чосон, которая правила в 1392- 1910 г.г. н.э., <br>
+провела серьезные политические и экономические реформы. Наиболее важной из них <br>
+было принятие Конфуцианства - как государственной религии. В 1443 году появляется<br>
+корейский алфавит, рождаются прекрасные литературные произведения.<br></p>
+
+<pre><div id="jin"><h2><center>Экономика Южной Кореи</center></h2></pre>
+<p> Южная Корея на протяжении последних четырех десятилетий показала невероятный рост<br>
+экономики и глобальную интеграцию. Экономика Южной Кореи по состоянию на 2006 год <br>
+является 14-й в мире по валовомувнутреннему продукту (по паритету покупательной <br>
+способности) и 10-й в мире по номинальному ВВП. Валовый национальный продукт на<br>
+душу населения вырос со 100 долларов США в 1963 году, до более чем 20 000 долларов США в году 2005.<br></p>
+<p>Ключевые направления южнокорейской экономики за шестидесятилетнюю историю <br>
+существования государства сильно изменились. В 1940-х годах экономика страны <br>
+опиралась преимущественно на сельское хозяйство и лёгкую промышленность. В течение<br> 
+следующих нескольких десятилетий акцент сместился в сторону лёгкой промышленности и<br> 
+производства товаров народного потребления, а в 70-х и 80-х годах XX века — в сторону<br> 
+тяжёлой промышленности. Бурный экономический рост в 80-х годах замедлился к концу <br>
+десятилетия. К тому времени экономический рост замедлился до 6,5 % <br>
+в год, а с ростом заработной платы населения выросла и инфляция. Как и в других<br> 
+высокоразвитых странах, к началу 90-х годов сфера услуг стала доминирующей в <br>
+экономике страны, а сейчас она составляет две трети всего ВВП.</p></div>
+
+
+
+</div>
+
+
+
+<div id="c2" style="display:none"><center><iframe src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311778.186842151!2d124.85330922230942!3d35.8451196592441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2z0K7QttC90LDRjyDQmtC-0YDQtdGP!5e0!3m2!1sru!2sru!4v1475656400271"
+ width="70%" height="800" frameborder="0" style="border:0" allowfullscreen></iframe></center></div>
+
+<div id="c3" style="display:none"><form action="handler.php">
+<p> <div id="v"><b>1) Столица Южной Кореи?</b></div></p>
+<div id="suga"><input type="radio" name="answer" value="a1">Пусан<br>
+<input type="radio" name="answer" value="a2">Сеул<br>
+<input type="radio" name="answer" value="a3">Инчхон<br></div>
+</form>
+
+<form action="handler.php">
+<p> <div id="v"><b>2) Национальный язык в стране?</b></div></p>
+<div id="suga"><input type="radio" name="answer" value="a1">Корейский<br>
+<input type="radio" name="answer" value="a2">Китайский<br>
+<input type="radio" name="answer" value="a3">Тайваньский<br></div>
+</form>
+
+<form action="handler.php">
+<p> <div id="v"><b>3) Национальный цветок Кореи?</b></div></p>
+<div id="suga"><input type="radio" name="answer" value="a1">Георгин<br>
+<input type="radio" name="answer" value="a2">Геранья<br>
+<input type="radio" name="answer" value="a3">Гибискус<br></div>
+</form>
+
+<form action="handler.php">
+<p> <div id="v"><b>4) Государственная религия Кореи?</b></div></p>
+<div id="suga"><input type="radio" name="answer" value="a1">Конфуцианство<br>
+<input type="radio" name="answer" value="a2">Даосизм<br>
+<input type="radio" name="answer" value="a3">Христианство<br></div>
+</form>
+
+
+
+
+
+
+
+
+
+
+<p> <div id="v"><b><input id="q1" type="checkbox"><label for="q1"> Привит от гриппа?</label></b></div></p>
+<p> <div id="v"><b> 2+2=</b></div></p>
+<div id="suga"><input type="radio" name="answer">3<br>
+<input type="radio" name="answer" >4<br>
+<input type="radio" name="answer">5<br></div>
+
+<p> <div id="v"><b>Сколько?</b></div></p>
+<input type= 'text' id='q3'>
+
+<div id='res'>Answer</div>
+
+
+<form>
+  <input type='button' onclick="check()" value="Check">
+</form>
+
+</div>
+
+</tr>
+</table>
+
+
+
+
+</body>
+</html>
