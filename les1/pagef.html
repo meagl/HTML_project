@@ -6,17 +6,7 @@
 
 </head>
 
-<script type="text/javascript">
- ymaps.ready(init);
-    var c2;
 
-    function init() {
-        var c2 = new ymaps.Map("map", {
-            center: [55.76, 37.64],
-            zoom: 7
-        });
-    }
-</script>
 
 <body>
 <h1>South Korea forever!</h1>
@@ -103,53 +93,55 @@
 
 
 <div id="c2" style="display:none; width:  600px;
- height: 400px;"><script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script></div>
-                                                                                                                      <script type="text/javascript">  
-                                                                                                                      
-                                                                                                                      ymaps.ready(init);
-    var map;
+ height: 700px;"><script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script></div>
+<script type="text/javascript">  
+ymaps.ready(init);
+var map;
 
     function init() {
         map = new ymaps.Map("c2", {
-            center: [55.76, 37.64],
+            center: [36.451153, 127.86114],
             zoom: 7
         });
     }
 </script>
 
-<div id="c3" style="display:none"><form action="handler.php">
-<p> <div id="v"><b>1) Столица Южной Кореи?</b></div></p>
-<div id="suga"><input type="radio" name="answer" value="a1">Пусан<br>
-<input type="radio" name="answer" value="a2">Сеул<br>
-<input type="radio" name="answer" value="a3">Инчхон<br></div>
-</form>
 
-<form action="handler.php">
-<p> <div id="v"><b>2) Национальный язык в стране?</b></div></p>
-<div id="suga"><input type="radio" name="answer" value="a1">Корейский<br>
-<input type="radio" name="answer" value="a2">Китайский<br>
-<input type="radio" name="answer" value="a3">Тайваньский<br></div>
-</form>
 
-<form action="handler.php">
-<p> <div id="v"><b>3) Национальный цветок Кореи?</b></div></p>
-<div id="suga"><input type="radio" name="answer" value="a1">Георгин<br>
-<input type="radio" name="answer" value="a2">Геранья<br>
-<input type="radio" name="answer" value="a3">Гибискус<br></div>
-</form>
+  
 
-<form action="handler.php">
-<p> <div id="v"><b>4) Государственная религия Кореи?</b></div></p>
-<div id="suga"><input type="radio" name="answer" value="a1">Конфуцианство<br>
-<input type="radio" name="answer" value="a2">Даосизм<br>
-<input type="radio" name="answer" value="a3">Христианство<br></div>
-</form>
-
-<form>
-  <button>Оптравить</button>
-</form>
-
+<p><div id="c3" style="display:none">
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"  /><b> 1) Столица Южной Кореи?</b><br/>
+<input type="radio" value="0" name="Q1"/> Пусан<br />
+<input type="radio" value="1" name="Q1"/> Сеул<br />
+<input type="radio" value="2" name="Q1"/> Инчхон<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T2"  /><b> 2) Национальный язык в стране?</b><br/>
+<input type="radio" value="0" name="Q2"/> Корейский<br />
+<input type="radio" value="1" name="Q2"/> Китайский<br />
+<input type="radio" value="2" name="Q2"/> Тайваньский<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T3" /><b> 3) Национальный цветок Кореи?</b><br/>
+<input type="radio" value="0" name="Q3"/> Георгин<br />
+<input type="radio" value="1" name="Q3"/> Геранья<br />
+<input type="radio" value="2" name="Q3"/> Гибискус<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T4" /><b> 4) Государственная религия Кореи?</b><br/>
+<input type="radio" value="0" name="Q4"/> Конфуцианство<br />
+<input type="radio" value="1" name="Q4"/> Буддизм<br />
+<input type="radio" value="2" name="Q4"/> Христианство<br />
+<br/></li><li><INPUT type="text" size="1" value="" name="T5" /><b> 5) Год создания корейского алфавита?</b><br/>
+<input type="radio" value="0" name="Q5"/> 1442<br />
+<input type="radio" value="1" name="Q5"/> 1443<br />
+<input type="radio" value="2" name="Q5"/> 1444<br />
+<br/></li></ol>      
+<center>
+<P><textarea name="s1" rows="4" cols="70" readonly> </textarea> </P>
+<input onclick="check_me()" type="button" value="Показать результат"/> 
+<input type="reset" value="Сбросить ответы"/> 
+</center>        
+</form> 
 </div>
+</p>
+
 
 </tr>
 </table>
