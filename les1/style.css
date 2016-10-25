@@ -6,38 +6,49 @@
   color: white;
   text-align: center;
   }
-#v{text-align: left;
-color: white;}
+#c2{margin: auto;}  
+#c3 {color: #b0b7c6;
+}
+#jin{ color: white;
+}
 #suga{color: white;}
-p{ color: white;
+p{ color: #fff;
    text-align: center ;
 text-indent: 50px;
 }
 
-button {
-    background-color:  white;
+input[type=button], input[type=reset] { background-color: #fff;
     border: none;
     color: rgb(8, 19, 49);
     padding: 16px 32px;
- 
-    margin: 4px 2px;
-	border-radius: 12px;}
     
+    margin: 4px 2px;
+	border-radius: 8px;
+    
+	
 }
 
+input[type=button]:hover {
+    background-color: #6495ED;
+    color: #fff;
+}
+
+input[type=reset]:hover {
+    background-color: #6495ED;
+    color: #fff;
+}
 
 table {
      border-collapse: collapse;
 }
 
 
-  td.menu { background: #7B68EE;
+  td.menu { background:  #6495ED;
   }
   td.menu:hover{ background: #00BFFF;
   }
-#jin{ color: white;
-}
 
+  
 
 
 
