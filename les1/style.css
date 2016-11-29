@@ -64,11 +64,17 @@ th, td {padding: 5px 10px ;
   }
   td.menu:hover{ background: #00BFFF;
   }
+
+footer{
+height: 51px;
+background: #616D7E; 
+padding-top: 20px;}
   
-ul li {
-    list-style-image: url('ball.gif');
-	margin: 5px;
-} 
+#link {
+color: white; 
+background-color: transparent; 
+text-decoration: underline;
+}  
 
 #bc{ background: #6495ED; }
 
