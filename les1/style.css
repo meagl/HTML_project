@@ -28,8 +28,8 @@ text-indent: 50px;
 color: #fff;
 display:none;
 width: 600px; 
-height: 500px;	
-
+height: 700px;	
+margin: auto;
 }  
 
 #c3 {color: #fff;
@@ -41,6 +41,7 @@ display:none;
 .menu{
 	color: #fff;
 	font-size: 20px;
+	cursor: pointer;
 }
 
 .fl{ color: #fff;
@@ -49,8 +50,8 @@ display:none;
 }
 
 p{ color: #fff;
-   text-align: center ;
-text-indent: 50px;
+   text-align: center;
+
 }
 
 input[type=button], input[type=reset] { background-color: #fff;
